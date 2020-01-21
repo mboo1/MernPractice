@@ -4,7 +4,8 @@
   "description": "AAO",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "server:debug": "nodemon --inspect app.js",
+    "start": "node app.js", 
     "server": "nodemon app.js"
   },
   "author": "",
